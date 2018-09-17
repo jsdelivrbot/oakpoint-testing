@@ -4,14 +4,18 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "reactstrap": "^6.4.0",
+    "styled-components": "^3.4.5"
   },
   "keywords": [
     "gatsby"
@@ -24,7 +28,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^5.5.0",
     "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2"
   },
   "repository": {
