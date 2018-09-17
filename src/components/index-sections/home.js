@@ -11,11 +11,36 @@ const StyledSection = styled.section`
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  .box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: #333333;
+    text-align: center;
+    font-style: italic;
+    .middle-text {
+      font-size: 1.2em;
+      strong {
+        color: #39b73f;
+        text-decoration: underline;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
 `
 
 const Home = () => (
   <StyledSection>
-    <h2>Hi</h2>
+    <div class="box">
+      <h1>
+        Modern Solutions
+        <br />
+        <span class="middle-text">
+          to <strong>grow</strong>
+        </span>
+        <br />
+        your business
+      </h1>
+    </div>
   </StyledSection>
 )
 

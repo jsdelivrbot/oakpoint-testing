@@ -5,10 +5,13 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.5);
+  transition: 0.8s;
+  &.open {
+    background: rgba(255, 255, 255, 0.9);
+  }
   position: fixed;
   top: 0;
   width: 100%;
-  transition: 2s;
   .brand-and-toggle {
     flex-grow: 1;
     display: flex;
@@ -182,7 +185,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <StyledNav>
+      <StyledNav className={this.state.isNavOpen ? 'open' : 'closed'}>
         <div className="brand-and-toggle">
           <a className="nav-brand" href="#">
             <img
