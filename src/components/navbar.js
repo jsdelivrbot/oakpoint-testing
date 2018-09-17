@@ -5,6 +5,9 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
   transition: 2s;
   .brand-and-toggle {
     flex-grow: 1;
@@ -83,6 +86,9 @@ const StyledIcon = styled.div`
     border: 0;
     margin: 0;
     overflow: visible;
+    &:focus {
+      outline: 1px solid #39b73f;
+    }
   }
   .hamburger:hover {
     opacity: 0.7;
