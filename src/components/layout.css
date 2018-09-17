@@ -634,3 +634,17 @@ pre tt:after {
 body {
   background-color: #ededed;
 }
+
+/* Nav bar formatting to avoid FOUC while styled components load */
+#logo {
+  height: 40px;
+}
+li > a {
+  color: #333;
+}
+#link-list {
+  display: none;
+}
+#toggle-button {
+  display: none;
+}

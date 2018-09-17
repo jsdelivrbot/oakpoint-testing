@@ -30,7 +30,7 @@ const StyledNav = styled.nav`
 
   .collapse {
     flex-grow: 2;
-    ul {
+    #link-list {
       display: flex;
       list-style: none;
       justify-content: space-between;
@@ -179,7 +179,11 @@ class Navbar extends Component {
       <StyledNav>
         <div className="brand-and-toggle">
           <a className="nav-brand" href="#">
-            <img src={this.props.brand.src} alt={this.props.brand.img} />
+            <img
+              id="logo"
+              src={this.props.brand.src}
+              alt={this.props.brand.img}
+            />
           </a>
           <StyledIcon id="toggle-button">
             <button
@@ -203,7 +207,7 @@ class Navbar extends Component {
             this.state.isNavOpen ? 'collapse nav-open' : 'collapse nav-closed'
           }
         >
-          <ul>
+          <ul id="link-list">
             {this.props.links.map(navitem => (
               <li key={navitem.title}>
                 <a href={navitem.link}>{navitem.title}</a>
