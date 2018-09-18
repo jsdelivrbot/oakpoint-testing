@@ -18,6 +18,7 @@ const StyledSection = styled.section`
       font-size: 1.2em;
       flex: 1 1 0;
       margin-top: 18px;
+      padding: 0 1em;
       table {
         border: 1px solid #ccc;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
