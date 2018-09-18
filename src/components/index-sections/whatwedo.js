@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Container from '../container'
 
 const StyledSection = styled.section`
-  height: 100vh;
   color: #333;
   .header {
     background-color: #39b73f;
@@ -69,7 +68,7 @@ const StyledSection = styled.section`
     border-top: 3px solid #333;
     border-bottom: 3px solid #333;
     h3 {
-      padding: 1em 0;
+      padding: 1em 0.3em;
       margin: 0;
     }
     #technologies {
@@ -151,6 +150,3 @@ const WhatWeDo = () => (
 )
 
 export default WhatWeDo
-
-//         We provide full service web solutions that produce results and scale as
-// you grow

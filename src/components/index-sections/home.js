@@ -30,11 +30,11 @@ const StyledSection = styled.section`
 
 const Home = () => (
   <StyledSection>
-    <div class="box">
+    <div className="box">
       <h1>
         Modern Solutions
         <br />
-        <span class="middle-text">
+        <span className="middle-text">
           to <strong>grow</strong>
         </span>
         <br />
