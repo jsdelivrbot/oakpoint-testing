@@ -44,8 +44,8 @@ const StyledSection = styled.section`
         padding: 15px 3%;
         min-width: 255px;
         margin: 20px 10px;
-        background: #f1f6fa;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        background: #fcfcfc;
         svg {
           width: 35%;
           fill: #333;
