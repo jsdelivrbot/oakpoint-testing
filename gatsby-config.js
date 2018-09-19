@@ -7,13 +7,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'oakpoint-digital',
-        short_name: 'oakpoint',
+        name: 'Oakpoint Digital',
+        short_name: 'Oakpoint',
         start_url: '/',
         background_color: '#39b73f',
         theme_color: '#39b73f',
         display: 'minimal-ui',
-        icon: 'src/images/faviconv2.png', // This path is relative to the root of the site.
+        icon: 'src/images/oakpoint-favicon-min.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
