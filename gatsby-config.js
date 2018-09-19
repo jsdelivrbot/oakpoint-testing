@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Oakpoint Digital',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'oakpoint-digital',
+        short_name: 'oakpoint',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#39b73f',
+        theme_color: '#39b73f',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/faviconv2.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

@@ -67,6 +67,9 @@ const StyledNav = styled.nav`
     #link-list > li:first-of-type {
       margin-left: 0 !important;
     }
+    #link-list > li:last-of-type {
+      padding-bottom: 1.5em;
+    }
     .collapse {
       display: none;
       &.nav-open {

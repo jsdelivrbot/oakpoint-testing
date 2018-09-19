@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby' // eslint-disable-line
 
 import Header from './header'
+import Footer from './footer'
 import './layout.css'
 
 const Layout = (
@@ -26,14 +27,23 @@ const Layout = (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'Oakpoint Digital is a web development agency located in North Andover, MA.',
+            },
+            {
+              name: 'keywords',
+              content:
+                'web development, web design, seo, north andover, boston, massachusetts',
+            },
           ]}
         >
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>{children}</div>
+        <Footer />
       </>
     )}
   />
