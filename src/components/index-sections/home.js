@@ -9,38 +9,34 @@ const StyledSection = styled.section`
   background-size: cover;
   display: flex;
   min-height: 100vh;
-  align-items: center;
+  align-items: top;
   justify-content: center;
-  .box {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
+  h1 {
     color: #333333;
     text-align: center;
     font-style: italic;
-    .middle-text {
-      font-size: 1.2em;
-      strong {
-        color: #39b73f;
-        text-decoration: underline;
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
-      }
+    font-size: 2em;
+    margin-top: 100px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+    span {
+      letter-spacing: 0.2em;
     }
+  }
+
+  strong {
+    color: #39b73f;
+    text-decoration: underline;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
   }
 `
 
 const Home = () => (
   <StyledSection>
-    <div className="box">
-      <h1>
-        Modern Solutions
-        <br />
-        <span className="middle-text">
-          to <strong>grow</strong>
-        </span>
-        <br />
-        your business
-      </h1>
-    </div>
+    <h1>
+      Modern Solutions to <strong>grow</strong>
+      <span> </span>
+      your business
+    </h1>
   </StyledSection>
 )
 
