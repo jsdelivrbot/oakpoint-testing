@@ -189,8 +189,9 @@ class Navbar extends Component {
   }
 
   render() {
+    const { isNavOpen } = this.state
     return (
-      <StyledNav className={this.state.isNavOpen ? 'open' : 'closed'}>
+      <StyledNav className={isNavOpen ? 'open' : 'closed'}>
         <div className="brand-and-toggle">
           <a className="nav-brand" href="#">
             <img
@@ -204,7 +205,7 @@ class Navbar extends Component {
               onClick={this.toggleNav}
               className="hamburger hamburger--collapse"
               className={
-                this.state.isNavOpen
+                isNavOpen
                   ? 'hamburger hamburger--collapse is-active'
                   : 'hamburger hamburger--collapse'
               }
@@ -217,14 +218,18 @@ class Navbar extends Component {
           </StyledIcon>
         </div>
         <div
-          className={
-            this.state.isNavOpen ? 'collapse nav-open' : 'collapse nav-closed'
-          }
+          className={isNavOpen ? 'collapse nav-open' : 'collapse nav-closed'}
         >
           <ul id="link-list">
             {this.props.links.map(navitem => (
               <li key={navitem.title}>
-                <a href={navitem.link}>{navitem.title}</a>
+                {isNavOpen ? (
+                  <a href={navitem.link} onClick={this.toggleNav}>
+                    {navitem.title}
+                  </a>
+                ) : (
+                  <a href={navitem.link}>{navitem.title}</a>
+                )}
               </li>
             ))}
           </ul>
