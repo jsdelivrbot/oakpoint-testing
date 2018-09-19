@@ -13,7 +13,7 @@ module.exports = {
         background_color: '#39b73f',
         theme_color: '#39b73f',
         display: 'minimal-ui',
-        icon: 'src/images/oakpoint-favicon-min.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicon-oakpoint-min.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

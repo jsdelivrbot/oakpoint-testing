@@ -49,6 +49,9 @@ const StyledSection = styled.section`
       }
       textarea {
         padding: 0.2em 1em;
+        &:invalid {
+          box-shadow: none;
+        }
       }
     }
   }

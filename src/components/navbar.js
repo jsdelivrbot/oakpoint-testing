@@ -196,13 +196,23 @@ class Navbar extends Component {
     return (
       <StyledNav className={isNavOpen ? 'open' : 'closed'}>
         <div className="brand-and-toggle">
-          <a className="nav-brand" href="#">
-            <img
-              id="logo"
-              src={this.props.brand.src}
-              alt={this.props.brand.img}
-            />
-          </a>
+          {isNavOpen ? (
+            <a className="nav-brand" href="#" onClick={this.toggleNav}>
+              <img
+                id="logo"
+                src={this.props.brand.src}
+                alt={this.props.brand.img}
+              />
+            </a>
+          ) : (
+            <a className="nav-brand" href="#">
+              <img
+                id="logo"
+                src={this.props.brand.src}
+                alt={this.props.brand.img}
+              />
+            </a>
+          )}
           <StyledIcon id="toggle-button">
             <button
               onClick={this.toggleNav}
