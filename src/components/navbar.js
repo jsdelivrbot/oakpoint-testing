@@ -39,10 +39,13 @@ const StyledNav = styled.nav`
     #link-list {
       display: flex;
       list-style: none;
-      justify-content: space-between;
+      justify-content: right;
       margin: 0 1em;
       li {
         padding: 22px 1em 5px 1em;
+        &:first-of-type {
+          margin-left: auto;
+        }
         a {
           font-family: montserrat-bold, sans-serif;
           color: #333;
@@ -61,7 +64,9 @@ const StyledNav = styled.nav`
     #toggle-button {
       display: block;
     }
-
+    #link-list > li:first-of-type {
+      margin-left: 0 !important;
+    }
     .collapse {
       display: none;
       &.nav-open {

@@ -11,9 +11,8 @@ const Header = ({ siteTitle }) => (
         link: '#',
       }}
       links={[
-        { title: 'What We Do', link: '#' },
-        { title: 'Our Work', link: '#' },
-        { title: 'Contact Us', link: '#' },
+        { title: 'What We Do', link: '#what-we-do' },
+        { title: 'Contact Us', link: '#contact-us' },
       ]}
     />
   </div>

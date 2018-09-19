@@ -2,13 +2,14 @@ import React from 'react'
 import Container from '../container'
 import styled from 'styled-components'
 import NetlifyContact from '../netlify-contact'
+import Anchor from '../anchor'
 
 const StyledSection = styled.section`
   font-family: montserrat, sans-serif;
-  padding: 1em 0 3em 0;
+  padding-bottom: 5em;
   h2 {
     text-align: center;
-    padding: 1em;
+    padding: 3em 1em 2em 1em;
   }
 
   .columns {
@@ -55,6 +56,7 @@ const StyledSection = styled.section`
 
 const Contact = () => (
   <StyledSection>
+    <Anchor anchor="contact-us" />
     <Container>
       <h2>
         What are you waiting for? Contact us to set up your free consultation

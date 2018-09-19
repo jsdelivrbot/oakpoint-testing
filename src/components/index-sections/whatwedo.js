@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby' //eslint-disable-line
 import styled from 'styled-components'
 import Container from '../container'
+import Anchor from '../anchor'
 
 const StyledSection = styled.section`
   color: #333;
@@ -17,7 +18,7 @@ const StyledSection = styled.section`
   }
   .puzzle {
     border-top: 1px solid rgb(241, 246, 251);
-    padding-bottom: 25px;
+    padding-bottom: 4em;
     background: linear-gradient(
         to bottom,
         rgba(241, 246, 251, 0.95) 0%,
@@ -28,7 +29,7 @@ const StyledSection = styled.section`
 
     h3 {
       text-align: center;
-      padding: 1em;
+      padding: 2.2em 1em 2em 1em;
       margin: 0;
     }
     .services {
@@ -67,6 +68,7 @@ const StyledSection = styled.section`
     background: #fefefe;
     border-top: 3px solid #333;
     border-bottom: 3px solid #333;
+    padding: 2em 0;
     h3 {
       padding: 1em 0.3em;
       margin: 0;
@@ -86,6 +88,7 @@ const StyledSection = styled.section`
 
 const WhatWeDo = () => (
   <StyledSection>
+    <Anchor anchor="what-we-do" />
     <div className="header">
       <h2>FULL SERVICE WEB SOLUTIONS</h2>
     </div>
