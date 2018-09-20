@@ -71,7 +71,7 @@ const Contact = () => (
             <strong>Phone:</strong> 978-729-2187
           </p>
           <p>
-            <strong>Email:</strong> hello@oakpoint.io
+            <strong>Email:</strong> lucas.lombardo@oakpoint.io
           </p>
           <p>
             <strong>Business hours:</strong>
