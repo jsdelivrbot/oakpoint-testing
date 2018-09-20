@@ -16,7 +16,7 @@ const StyledSection = styled.section`
     text-align: center;
     font-style: italic;
     font-size: 2em;
-    margin-top: 100px;
+    margin: 100px 1em;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
     span {
       letter-spacing: 0.2em;
@@ -25,7 +25,6 @@ const StyledSection = styled.section`
 
   strong {
     color: #39b73f;
-    text-decoration: underline;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
   }
 `

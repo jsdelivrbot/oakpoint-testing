@@ -61,6 +61,9 @@ const StyledSection = styled.section`
           color: #555;
         }
       }
+      @media only screen and (max-width: 1049px) {
+        justify-content: center;
+      }
     }
   }
   .tech {
