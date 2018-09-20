@@ -57,10 +57,17 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <StyledContactForm>
+        <iframe
+          width="0"
+          height="0"
+          border="0"
+          name="dummyframe"
+          id="dummyframe"
+        />
         <form
           name="contact-us"
           method="post"
-          action="/thanks/"
+          target="dummyframe"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
