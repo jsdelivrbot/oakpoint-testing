@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/header'
 import styled from 'styled-components'
+import '../components/layout.css'
 
 const MainSlider = styled.div`
   background-color: #282828;
