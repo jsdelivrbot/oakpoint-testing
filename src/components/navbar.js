@@ -4,12 +4,13 @@ import styled from 'styled-components'
 const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.35);
   transition: 0.8s;
   &.open {
     background: rgba(255, 255, 255, 0.9);
   }
   position: fixed;
+  z-index: 10;
   top: 0;
   width: 100%;
   .brand-and-toggle {
