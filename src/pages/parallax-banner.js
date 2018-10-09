@@ -36,12 +36,12 @@ const Content = styled.div`
 `
 
 const SliderText = styled.div`
-  margin-top: 70px;
+  margin-top: 20px;
   text-align: center;
   position: relative;
   h1 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 28px;
     font-weight: 700;
     font-family: montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
       Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
@@ -49,7 +49,7 @@ const SliderText = styled.div`
     letter-spacing: 2px;
     margin: 0;
     background-color: #46b24d;
-    padding: 10px 14px 8px 14px;
+    padding: 5px 7px 4px 7px;
     color: #fff;
     text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 4px;
   }
@@ -59,8 +59,8 @@ const SliderText = styled.div`
     font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    padding: 6px 12px;
-    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1px 6px;
+    background-color: rgba(0, 0, 0, 0.3);
     width: fit-content;
     margin: 10px auto 0 auto;
   }
