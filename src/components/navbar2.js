@@ -11,7 +11,7 @@ const StyledNav = styled.nav`
     background: rgba(255, 255, 255, 0.9);
   }
   position: fixed;
-  z-index: 10;
+  /* z-index: 10; */
   top: 0;
   width: 100%;
   .brand-and-toggle {

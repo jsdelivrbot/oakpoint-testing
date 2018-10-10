@@ -1,10 +1,11 @@
 import React from 'react'
-import Header from '../components/header2'
+import Header from '../components/header'
 import styled from 'styled-components'
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax'
 import '../components/layout.css'
 import treeImg from '../images/Parav4tree.png'
 import skyImg from '../images/Parav4sky.jpg'
+import WhatWeDo from '../components/index-sections/whatwedo'
 
 const MainSlider = styled.div`
   background-color: #282828;
@@ -34,6 +35,7 @@ const Banner = styled(ParallaxBanner)`
 const Content = styled.div`
   height: 100vh;
   background: #131218;
+  /* background: #ccc; */
 `
 
 const SliderText = styled.div`
@@ -96,7 +98,8 @@ const Home = () => (
           </SliderText>
         </Banner>
       </ParallaxProvider>
-    </MainSlider>
+    {/* </MainSlider> */}
+    <WhatWeDo />
     <Content />
   </div>
 )
