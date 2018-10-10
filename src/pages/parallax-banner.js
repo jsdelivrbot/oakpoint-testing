@@ -35,16 +35,21 @@ const Banner = styled(ParallaxBanner)`
 const Content = styled.div`
   height: 100vh;
   background: #131218;
-  /* background: #ccc; */
+  h1 {
+    padding-top: 76px;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+  }
 `
 
 const SliderText = styled.div`
-  margin-top: -10%;
+  margin-top: -20%;
   text-align: center;
   position: relative;
   h1 {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 35px;
+    line-height: 35px;
     font-weight: 700;
     font-family: montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
       Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
@@ -59,11 +64,11 @@ const SliderText = styled.div`
   p {
     color: #fff;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     padding: 1px 6px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     width: fit-content;
     margin: 10px auto 0 auto;
   }
@@ -98,9 +103,11 @@ const Home = () => (
           </SliderText>
         </Banner>
       </ParallaxProvider>
-    {/* </MainSlider> */}
-    <WhatWeDo />
-    <Content />
+    </MainSlider>
+    {/* <WhatWeDo /> */}
+    <Content>
+      <h1>Full Service Web Solutions</h1>
+    </Content>
   </div>
 )
 
