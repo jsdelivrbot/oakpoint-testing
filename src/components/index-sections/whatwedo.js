@@ -146,10 +146,10 @@ const WhatWeDo = () => (
         We work with industry leading technologies to deliver high quality work
       </h3>
       <div id="technologies">
-        <img src="https://cdn.rawgit.com/LucasLombardo/svg-hosting/master/i-tech-wordpress.svg" />
-        <img src="https://cdn.rawgit.com/LucasLombardo/svg-hosting/master/i-tech-woo.svg" />
-        <img src="https://cdn.rawgit.com/LucasLombardo/svg-hosting/master/i-tech-reactjs.svg" />
-        <img src="https://cdn.rawgit.com/LucasLombardo/svg-hosting/master/i-tech-shopify.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/LucasLombardo/svg-hosting@master/i-tech-wordpress.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/LucasLombardo/svg-hosting@master/i-tech-woo.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/LucasLombardo/svg-hosting@master/i-tech-reactjs.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/LucasLombardo/svg-hosting@master/i-tech-shopify.svg" />
       </div>
     </div>
   </StyledSection>
